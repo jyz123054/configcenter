@@ -1,0 +1,40 @@
+spring:
+   profiles:
+      active:
+        - dev
+---
+server:
+  port: 8201
+
+spring:
+  profiles: dev
+  application:
+      name: zmodule-test-client5
+
+eureka:
+ client:
+  serviceUrl:
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
+  register-with-eureka: false
+
+info:
+  app.name: zmodule-config-client-dev2
+  company.name: jtest
+---
+server:
+  port: 8102
+
+spring:
+  profiles: beta
+  application:
+      name: zmodule-test-client5
+
+eureka:
+ client:
+  serviceUrl:
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
+  register-with-eureka: false
+  
+info:
+  app.name: zmodule-config-client-beta2
+  company.name: jtest
