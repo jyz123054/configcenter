@@ -1,0 +1,14 @@
+spring:
+   profiles:
+      active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+      name: zmodule-test-devv
+---
+spring:
+ profiles: default
+ application:
+      name: zmodule-test-default
