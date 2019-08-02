@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: zmodule-test-client5
+      name: zmodule-test-client37
 
 eureka:
  client:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: zmodule-test-client5
+      name: zmodule-test-client37
 
 eureka:
  client:
