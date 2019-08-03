@@ -18,7 +18,7 @@ eureka:
   register-with-eureka: false
 
 info:
-  app.name: zmodule-config-client-dev2
+  app.name: zmodule-config-client-dev2l-linux
   company.name: jtest
 ---
 server:
