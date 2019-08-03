@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: zmodule-test-client37
+      name: zmodule-test-client37mod
 
 eureka:
  client:
@@ -18,7 +18,7 @@ eureka:
   register-with-eureka: false
 
 info:
-  app.name: zmodule-config-client-dev2
+  app.name: zmodule-config-client-dev2mod
   company.name: jtest
 ---
 server:
